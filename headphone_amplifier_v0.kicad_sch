@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3983550c-3b96-4d77-b5c7-1354f8e757f8")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 95.25 156.21)
+		(size 36.83 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "406fb7ac-178d-4932-ad58-7c7a39bfab55")
+		(property "Sheetname" "OP Amplifier Left"
+			(at 95.25 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "op_amplifier_left.kicad_sch"
+			(at 95.25 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "headphone_amplifier_v0"
+				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 156.21)
+		(size 36.83 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3a99239-1e5e-4c24-a69f-cd9136b9fdfb")
+		(property "Sheetname" "Audio Jack"
+			(at 133.35 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio_jack.kicad_sch"
+			(at 133.35 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "headphone_amplifier_v0"
+				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 156.21)
+		(size 36.83 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c8e77936-9e31-4469-9863-6c19f79b4d67")
+		(property "Sheetname" "Power"
+			(at 19.05 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 19.05 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "headphone_amplifier_v0"
+				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 156.21)
+		(size 36.83 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cfb74664-baf6-4163-a6e4-2566994bb0b2")
+		(property "Sheetname" "OP Amplifier Right"
+			(at 57.15 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "op_amplifier_right.kicad_sch"
+			(at 57.15 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "headphone_amplifier_v0"
+				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
