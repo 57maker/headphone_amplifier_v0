@@ -907,72 +907,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 97.79 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fcb945d-8908-464f-8f20-f0385c2bb464")
-		(property "Reference" "#PWR09"
-			(at 97.79 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5997242-c3b4-4c80-a0ea-4ba6270c408b")
-		)
-		(instances
-			(project "headphone_amplifier_v0"
-				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8/406fb7ac-178d-4932-ad58-7c7a39bfab55"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 85.09 85.09 0)
 		(unit 1)
@@ -1044,16 +978,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 96.52 0)
+		(at 97.79 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d1fe26f-2048-4081-8f11-20ec2069f1dc")
-		(property "Reference" "#PWR08"
-			(at 85.09 102.87 0)
+		(uuid "70ee1b4a-9e1a-474b-bc94-03686379491f")
+		(property "Reference" "#PWR07"
+			(at 97.79 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,8 +995,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 85.09 101.6 0)
+		(property "Value" "GND_OPA"
+			(at 97.79 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +1004,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 96.52 0)
+			(at 97.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,7 +1013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 96.52 0)
+			(at 97.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,7 +1022,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 96.52 0)
+			(at 97.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,12 +1031,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a53f9e0-ac3e-46c3-8d52-8638b3d16b0d")
+			(uuid "cd79ffa7-8698-4340-ad94-7b3907367cfc")
 		)
 		(instances
 			(project "headphone_amplifier_v0"
 				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8/406fb7ac-178d-4932-ad58-7c7a39bfab55"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1186,7 +1120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c40ac79-e9e3-4abe-b9c4-cad144c6a733")
-		(property "Reference" "C10"
+		(property "Reference" "C14"
 			(at 73.66 64.77 90)
 			(effects
 				(font
@@ -1202,7 +1136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W5.0mm_P5.00mm_P7.50mm"
 			(at 77.47 71.4248 0)
 			(effects
 				(font
@@ -1238,7 +1172,73 @@
 		(instances
 			(project "headphone_amplifier_v0"
 				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8/406fb7ac-178d-4932-ad58-7c7a39bfab55"
-					(reference "C10")
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dc70c71-07bf-4f35-ba62-3492dba77216")
+		(property "Reference" "#PWR06"
+			(at 85.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_OPA"
+			(at 85.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0387744f-fff5-4778-a53a-883d0f2cc44f")
+		)
+		(instances
+			(project "headphone_amplifier_v0"
+				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8/406fb7ac-178d-4932-ad58-7c7a39bfab55"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1315,13 +1315,13 @@
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 109.22 74.93 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dfde412e-8142-471a-9e5f-d7bc4585c191")
+		(uuid "ca45bc3d-8c27-4b73-ae17-e2c869568138")
 		(property "Reference" "U3"
 			(at 109.22 64.77 0)
 			(effects
@@ -1366,34 +1366,34 @@
 			)
 		)
 		(pin "4"
-			(uuid "20d7dcc6-863f-4dce-ba16-2ae78cdc0a2d")
+			(uuid "20d7dcc6-863f-4dce-ba16-2ae78cdc0a2c")
 		)
 		(pin "8"
-			(uuid "3f33d593-c33c-42b1-9a92-4e18ac95e9a8")
+			(uuid "3f33d593-c33c-42b1-9a92-4e18ac95e9a7")
 		)
 		(pin "5"
-			(uuid "a5dbe860-632c-45d9-aed6-cc64bf2d7615")
+			(uuid "37ca3245-a118-4c91-89bb-7e6cef57ca00")
 		)
 		(pin "3"
-			(uuid "5594b4d6-f222-410c-90c0-22083a264184")
+			(uuid "e4dea359-231b-48ae-8249-deb22ea9e75d")
 		)
 		(pin "6"
-			(uuid "e07b2040-2aab-4d65-9ac8-c711826a5105")
+			(uuid "dc1e65f5-a759-40b3-9717-5969c0ca7c3e")
 		)
 		(pin "2"
-			(uuid "7b46f418-9bf9-4b12-bdc0-e5a81c301712")
+			(uuid "082e3ed7-6a78-402e-b99c-c583335897ec")
 		)
 		(pin "7"
-			(uuid "14a87c64-e7ad-4a41-aa18-11b9ecd537c4")
+			(uuid "5884494f-7017-4736-ae04-f88212cd24e2")
 		)
 		(pin "1"
-			(uuid "f9397539-c011-401a-aafe-e071f2177fbc")
+			(uuid "28be1a89-06d8-4709-875e-959314d07fe6")
 		)
 		(instances
 			(project "headphone_amplifier_v0"
 				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8/406fb7ac-178d-4932-ad58-7c7a39bfab55"
 					(reference "U3")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)

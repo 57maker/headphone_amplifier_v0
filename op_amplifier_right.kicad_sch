@@ -906,72 +906,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b1c0fa2-0b71-4018-b157-1a2bad3fc1e2")
-		(property "Reference" "#PWR07"
-			(at 97.79 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c96de3b8-ede9-4b78-8dca-2b034a638d12")
-		)
-		(instances
-			(project "headphone_amplifier_v0"
-				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8/cfb74664-baf6-4163-a6e4-2566994bb0b2"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 85.09 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -979,8 +913,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4976aac5-ca53-48b3-a3a7-78bc84693f77")
-		(property "Reference" "#PWR06"
+		(uuid "31d375b6-4dcc-444c-b65e-32dca7eb77f6")
+		(property "Reference" "#PWR04"
 			(at 85.09 102.87 0)
 			(effects
 				(font
@@ -989,7 +923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND_OPA"
 			(at 85.09 101.6 0)
 			(effects
 				(font
@@ -1025,99 +959,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "03ba6c50-08a0-4e1a-b54e-1e45474b73b4")
+			(uuid "34038d81-f011-4650-a02e-bd1eb27da811")
 		)
 		(instances
 			(project "headphone_amplifier_v0"
 				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8/cfb74664-baf6-4163-a6e4-2566994bb0b2"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 109.22 74.93 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6866cf05-2dc8-4dcb-92b0-6fbeaa4f3782")
-		(property "Reference" "U3"
-			(at 109.22 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 109.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 109.22 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 109.22 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 109.22 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "20d7dcc6-863f-4dce-ba16-2ae78cdc0a2c")
-		)
-		(pin "8"
-			(uuid "3f33d593-c33c-42b1-9a92-4e18ac95e9a7")
-		)
-		(pin "5"
-			(uuid "ae5c937f-644c-4efd-a6d7-9e82915e06c9")
-		)
-		(pin "3"
-			(uuid "e4dea359-231b-48ae-8249-deb22ea9e75d")
-		)
-		(pin "6"
-			(uuid "32c162d3-cd5a-4611-bb01-31c9d52607cc")
-		)
-		(pin "2"
-			(uuid "082e3ed7-6a78-402e-b99c-c583335897ec")
-		)
-		(pin "7"
-			(uuid "1c57bdb0-e66f-41cb-b968-e52021ab26a4")
-		)
-		(pin "1"
-			(uuid "28be1a89-06d8-4709-875e-959314d07fe6")
-		)
-		(instances
-			(project "headphone_amplifier_v0"
-				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8/cfb74664-baf6-4163-a6e4-2566994bb0b2"
-					(reference "U3")
-					(unit 2)
 				)
 			)
 		)
@@ -1193,6 +1041,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 109.22 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9285fb74-7d81-4d59-b1a4-c7d491a2b95f")
+		(property "Reference" "U3"
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "20d7dcc6-863f-4dce-ba16-2ae78cdc0a2d")
+		)
+		(pin "8"
+			(uuid "3f33d593-c33c-42b1-9a92-4e18ac95e9a8")
+		)
+		(pin "5"
+			(uuid "a5dbe860-632c-45d9-aed6-cc64bf2d7615")
+		)
+		(pin "3"
+			(uuid "08fede75-0656-42d8-9f0f-f126ce335d92")
+		)
+		(pin "6"
+			(uuid "e07b2040-2aab-4d65-9ac8-c711826a5105")
+		)
+		(pin "2"
+			(uuid "f0cde1b5-1f64-41c7-9c15-75601c8c0ab1")
+		)
+		(pin "7"
+			(uuid "14a87c64-e7ad-4a41-aa18-11b9ecd537c4")
+		)
+		(pin "1"
+			(uuid "4e91d863-02f4-48c9-8a99-ce92f14b8f36")
+		)
+		(instances
+			(project "headphone_amplifier_v0"
+				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8/cfb74664-baf6-4163-a6e4-2566994bb0b2"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c1b7b05-752a-4b41-917e-a63493e718ae")
+		(property "Reference" "#PWR05"
+			(at 97.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_OPA"
+			(at 97.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4a3cc85-f5d8-478c-9e65-3422df7a78a9")
+		)
+		(instances
+			(project "headphone_amplifier_v0"
+				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8/cfb74664-baf6-4163-a6e4-2566994bb0b2"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 73.66 72.39 90)
 		(unit 1)
@@ -1202,7 +1202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c28c8525-eafc-4a88-8329-9425cdf6d615")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 73.66 64.77 90)
 			(effects
 				(font
@@ -1218,7 +1218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W5.0mm_P5.00mm_P7.50mm"
 			(at 77.47 71.4248 0)
 			(effects
 				(font
@@ -1254,7 +1254,7 @@
 		(instances
 			(project "headphone_amplifier_v0"
 				(path "/3983550c-3b96-4d77-b5c7-1354f8e757f8/cfb74664-baf6-4163-a6e4-2566994bb0b2"
-					(reference "C9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
